@@ -1,0 +1,20 @@
+{
+    "name": "w3public/calculator",
+    "description": "This is a normal calculator package so that we can calculate summation, substraction, multiplication, and division",
+    "authors": [
+        {
+            "name": "Bablu Ahmed",
+            "email": "bablukpik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "W3public\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+
+}
