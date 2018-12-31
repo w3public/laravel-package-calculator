@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "W3public\\Calculator\\CalculatorServiceProvider"
+                "W3public\\Calculator\\ServiceProvider"
             ]
         }
     }
