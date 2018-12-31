@@ -1,6 +1,8 @@
 {
     "name": "w3public/calculator",
     "description": "This is a normal calculator package so that we can calculate summation, substraction, multiplication, and division",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bablu Ahmed",
@@ -9,6 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "W3public\\Calculator\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
