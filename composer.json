@@ -1,6 +1,6 @@
 {
     "name": "w3public/calculator",
-    "description": "This is a normal calculator package so that we can calculate summation, substraction, multiplication, and division",
+    "description": "This is a normal calculator so that we can calculate summation, subtraction, multiplication, and division",
     "type": "library",
     "license": "MIT",
     "authors": [
