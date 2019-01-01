@@ -8,7 +8,7 @@ class CalculatorController extends Controller
 {
     public function index()
     {
-       //return view();
+       return view('calculator::calculator');
     }
 
     public function add($a, $b)
