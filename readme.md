@@ -13,7 +13,11 @@ To install the calculator using composer follow the below command:
 
 `composer require w3public/calculator`
 
-After installing calculator to use the calculator visit the url `http://127.0.0.1:8000/calculator` 
+After installing the calculator do the following for public/assets of the package: 
+
+`php artisan vendor:publish --tag=public --force`
+
+To use it visit the url `http://127.0.0.1:8000/calculator` 
 
 To uninstall the calculator using composer follow the below command:
 
