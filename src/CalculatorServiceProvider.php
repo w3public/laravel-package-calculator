@@ -16,6 +16,9 @@ class CalculatorServiceProvider extends ServiceProvider
         //include __DIR__.'/routes/web.php';
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/views', 'calculator'); //calculator is package name
+        $this->publishes([
+            __DIR__.'/assets' => public_path('vendor/calculator'),
+        ], 'public');
     }
 
     /**

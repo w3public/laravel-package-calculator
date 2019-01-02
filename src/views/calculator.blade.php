@@ -4,7 +4,7 @@
 	<title>Calculator</title>
 	<style>
 	body {
-	background:url("images/cal-bg.jpg") no-repeat center center fixed;
+	background:url({{asset('vendor/calculator/images/cal-bg.jpg')}}) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
